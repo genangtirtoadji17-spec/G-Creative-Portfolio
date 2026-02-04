@@ -966,7 +966,48 @@ body {
   overflow: hidden;
   z-index: 1;
 }
-/* ===== MOBILE FIX ===== */
+/* =========================
+   MOBILE FIX REAL (HP)
+   ========================= */
 @media (max-width: 768px) {
-  /* kode mobile di sini */
+
+  /* SEMUA SECTION JANGAN MELEBER */
+  section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* HERO */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+
+  /* IMAGE HERO / FOTO PROFIL */
+  .hero img,
+  .profile-img,
+  .hero-image img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: static;
+    transform: none;
+  }
+
+  /* HILANGIN MARGIN NEGATIF */
+  .hero-image,
+  .profile-img {
+    margin: 0 !important;
+  }
+
+  /* CARD (Skills, Education, Projects) */
+  .card,
+  .info-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+
 }
