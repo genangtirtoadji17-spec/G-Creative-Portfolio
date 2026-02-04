@@ -128,3 +128,6 @@ form.addEventListener("submit", function(e) {
     console.log(error);
   });
 });
+function goPortfolio(type) {
+  window.location.href = `portfolio.html?type=${type}`;
+}
