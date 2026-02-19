@@ -14,7 +14,7 @@ header {
 }
 
 .header-list {
-  margin: 15px 20px;
+  margin: 15px px;
 }
 
 .div-list {
@@ -27,7 +27,7 @@ header {
 .ul-list {
   list-style: none;
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 10px 25px;
@@ -37,7 +37,7 @@ header {
 .ul-list li {
   display: flex;
   align-items: center;
-  gap: 0px;
+  gap: 10px;
   border-radius: 25px;
   transition: 0.3s;
 }
@@ -48,7 +48,7 @@ header {
   color: rgb(0, 0, 0);
 }
 
-/* head menu */
+/* head menu ukuran */
 
 .ul-list li.active {
   background-color: rgb(57, 54, 255);
@@ -60,10 +60,10 @@ header {
   color: white;
 }
 
-/* fine header  */
+/* fine header home  */
 
 .home {
-  margin: 160px 200px;
+  margin: 140px 200px;
 }
 
 .home-container {
@@ -74,7 +74,7 @@ header {
 /* aviable for freelance work  */
 
 .home-p {
-  color: black;
+  color: rgb(255, 0, 0);
   background-color: rgba(128, 128, 128, 0.214);
   display: inline-block;
   border-radius: 25px;
@@ -84,7 +84,7 @@ header {
 
 .home-s {
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
 }
 
 .info-home h1 {
